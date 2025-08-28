@@ -1,88 +1,76 @@
-🔢 Digit Image Recognition using Logistic Regression
-📌 Overview
+# 🔢 Digit Image Recognition using Logistic Regression  
 
-This project demonstrates basic image recognition using the Digits dataset from Scikit-learn.
-It applies Logistic Regression, a simple yet effective machine learning model, to recognize handwritten digits from 8×8 grayscale images.
+## 📌 Overview  
+This project demonstrates **basic image recognition** using the **Digits dataset** from Scikit-learn.  
+It applies **Logistic Regression**, a simple yet effective machine learning model, to recognize handwritten digits from **8×8 grayscale images**.  
 
-📂 Dataset
+---
 
-Source: Scikit-learn’s built-in load_digits()
+## 📂 Dataset  
+- **Source**: Scikit-learn’s built-in `load_digits()`  
+- **Samples**: 1,797 handwritten digit images (0–9)  
+- **Format**: Each image is 8×8 pixels, flattened into **64 features**  
 
-Samples: 1,797 handwritten digit images (0–9)
+---
 
-Format: Each image is 8×8 pixels, flattened into 64 features
+## 🛠️ Tools & Libraries  
+- Python 🐍  
+- Scikit-learn  
+- Matplotlib  
+- Pandas  
 
-🛠️ Tools & Libraries
+---
 
-Python 🐍
+## 🔎 Methodology  
+1. Load digit image data (`sklearn.datasets.load_digits`)  
+2. Visualize sample images  
+3. Split dataset into train/test sets  
+4. Train using **Logistic Regression** model  
+5. Evaluate performance with:  
+   - ✅ Accuracy  
+   - ✅ Classification Report  
+   - ✅ Confusion Matrix  
+6. Visualize results:  
+   - 📊 Confusion Matrix  
+   - 🖼️ Sample Predictions vs True Labels  
 
-Scikit-learn
+---
 
-Matplotlib
+## 📊 Results  
+- **Test Accuracy**: ~93% – 97%  
+- **Outputs included**:  
+  - Confusion Matrix  
+  - Predictions vs Actual Digits  
+  - Sample digit visualizations  
 
-Pandas
+---
 
-🔎 Methodology
+## 🖼️ Sample Visualizations  
+📌 *(Add these images to a folder named `images/` in your repo)*  
 
-Load digit image data (sklearn.datasets.load_digits)
+- Sample Digits Preview  
+- Confusion Matrix  
+- Predictions vs Actual  
 
-Visualize sample images
+---
 
-Split dataset into train/test sets
+## 📜 License & Credit  
+- **Dataset**: Scikit-learn Digits Dataset  
+- **License**: BSD-3 (Open Source)  
 
-Train using Logistic Regression model
+---
 
-Evaluate performance with:
+## 🎯 Ideal For  
+- 🔰 Beginners in Machine Learning or Computer Vision  
+- 📚 Introduction to Image Classification  
+- 💼 Portfolio or Internship projects  
 
-✅ Accuracy
+---
 
-✅ Classification Report
+## 📖 About  
+This is a **beginner-friendly machine learning project** that demonstrates how **Logistic Regression** can be applied to handwritten digit recognition.  
+The notebook includes **visualizations, evaluation metrics, and clear explanations** to help learners understand the basics of image classification.  
 
-✅ Confusion Matrix
+---
 
-Visualize results:
-
-📊 Confusion Matrix
-
-🖼️ Sample Predictions vs True Labels
-
-📊 Results
-
-Test Accuracy: ~93% – 97%
-
-Outputs included:
-
-Confusion Matrix
-
-Predictions vs Actual Digits
-
-Sample digit visualizations
-
-🖼️ Sample Visualizations
-
-📌 (Add these images to a folder named images/ in your repo)
-
-Sample Digits Preview
-
-Confusion Matrix
-
-Predictions vs Actual
-
-📜 License & Credit
-
-Dataset: Scikit-learn Digits Dataset
-
-License: BSD-3 (Open Source)
-
-🎯 Ideal For
-
-🔰 Beginners in Machine Learning or Computer Vision
-
-📚 Introduction to Image Classification
-
-💼 Portfolio or Internship projects
-
-📖 About
-
-This is a beginner-friendly machine learning project that demonstrates how Logistic Regression can be applied to handwritten digit recognition.
-The notebook includes visualizations, evaluation metrics, and clear explanations to help learners understand the basics of image classification.
+✨ If you find this project helpful, don’t forget to **⭐ star the repo**!
